@@ -1,0 +1,71 @@
+.table-game-page {
+  display: flex;
+  text-align: center;
+  background-color: #f0f2f5;
+}
+
+.container-table-game {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.table-game {
+  background-color: #fff;
+  width: 90%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+.table-game thead {
+  background-color: #001529;
+  color: #fff;
+}
+
+.table-game thead th {
+  padding: 15px;
+  font-weight: 500;
+}
+
+.table-game th:nth-child(4) {
+  width: 15ch;
+}
+
+.table-game th:nth-child(5) {
+  width: 15ch;
+}
+
+.table-game tr:nth-child(even){
+  background-color: #dfe4e9;
+}
+
+.image-table-movie {
+  width: 130px;
+}
+
+.tagline-table-game {
+  background-color: #001529;
+  padding: 15px 0;
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn-adjust-table-game {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: salmon; */
+  width: 150px;
+}
+
+.btn-game{
+  margin-top: 15px;
+}
+
+
+
+
+/* #001529 */

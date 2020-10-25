@@ -1,0 +1,11 @@
+.header-nav {
+  padding: 0 50px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.brand h2{
+  color: #fff;
+  font-weight: 550;
+}

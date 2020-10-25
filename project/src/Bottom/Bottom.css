@@ -1,0 +1,19 @@
+.footer{
+  background-color: #001529;
+  color: #fff;
+}
+
+.name-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-footer span{
+  margin-right: 2.5px;
+  font-weight: 300;
+}
+
+.name-footer strong{
+  font-weight: 550;
+}

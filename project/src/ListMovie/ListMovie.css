@@ -1,0 +1,51 @@
+.list-movie-page {
+  display: flex;
+}
+
+.container-card-movie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #f0f2f5;
+  padding: 50px 0;
+}
+
+.card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  border-radius: 10px;
+  padding: 15px;
+  overflow: auto;
+  margin-bottom: 50px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+}
+
+.image-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-card img {
+  width: 100%;
+}
+
+.title-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.year-card {
+  color: #969696;
+}
